@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #555;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            background: white;
+            padding: 30px;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .progress-section {
+            margin: 30px 0;
+        }
+        .skill-bar {
+            margin: 20px 0;
+        }
+        .skill-bar h4 {
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .bar-container {
+            background: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 30px;
+        }
+        .bar-fill {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            transition: width 0.5s ease;
+        }
+        .learning-post {
+            border-left: 4px solid #4CAF50;
+            padding-left: 20px;
+            margin: 25px 0;
+            background: #f9f9f9;
+            padding: 20px;
+        }
+        .learning-post h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        .date {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .tag {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            margin-right: 5px;
+        }
+        .webinar-box {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+            background: #fff;
+        }
+        .webinar-box h4 {
+            margin-top: 0;
+            color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Learning Journey</h1>
+        <p>Write something here</p>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="travel.html">Travel Blog</a>
+        <a href="education.html">Education</a>
+    </nav>
+    
+    <div class="content">
+        <h2>Current CodeAcademy Learning Progress</h2>
+        <div class="progress-section">
+            
+            <div class="skill-bar">
+                <h4>Learn Python 3</h4>
+                <div class="bar-container">
+                    <div class="bar-fill" style="width: 31%; background: #4CAF50;">31%</div>
+                </div>
+                <p style="font-size: 0.9em; color: #666;">CodeAcademy Learn Python 3 Course</p>
+            </div>
+            
+            <div class="skill-bar">
+                <h4>Introduction to Cybersecurity</h4>
+                <div class="bar-container">
+                    <div class="bar-fill" style="width: 17%; background: #2196F3;">17%</div>
+                </div>
+                <p style="font-size: 0.9em; color: #666;">CodeAcademy Introduction to Cybersecurity Course</p>
+            </div>
+            
+            <div class="skill-bar">
+                <h4>Cybersecurity for Business</h4>
+                <div class="bar-container">
+                    <div class="bar-fill" style="width: 33%; background: #FF9800;">33%</div>
+                </div>
+                <p style="font-size: 0.9em; color: #666;">CodeAcademy Cybersecurity for Business course</p>
+            </div>
+        </div>
+        
+        <h2>Education Blog Posts</h2>
+      <div class="learning-post">
+        <h3>Your Post Title</h3>
+        <p class="date">Date Here</p>
+        <span class="tag">Topic</span>
+        <span class="tag">Source</span>
+        <p>What you learned goes here...</p>
+        <p><strong>Key Takeaway:</strong> Main lesson</p>
+       </div>
+        
+        <div class="learning-post">
+            <h3>Coming Soon</h3>
+            <p class="date">Future posts...</p>
+            <p>More learning updates as I progress through my courses!</p>
+        </div>
+        
+        <h2>Webinars & Workshops Attended</h2>
+        
+        <div class="webinar-box">
+            <h4>Insert webinar</h4>
+            <p class="date">October 28, 2025</p>
+            <p><strong>Provider:</strong> Insert Company</p>
+            <p><strong>What I Learned:</strong> Summary Here</p>
+        </div>
+        
+        <h2>Courses & Certifications</h2>
+        <ul>
+            <li><strong>SAIT Information Technology Services Diploma</strong> - In Progress</li>
+            <li><strong>CodeAcademy Learn Python 3 Course</strong> - In Progress (31% complete)</li>
+        </ul>
+    </div>
+</body>
+</html>
